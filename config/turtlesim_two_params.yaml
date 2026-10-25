@@ -1,0 +1,8 @@
+/Turtle_2:
+  ros__parameters:
+    background_b: 132
+    background_g: 90
+    background_r: 250
+    holonomic: false
+    start_type_description_service: true
+    use_sim_time: false
