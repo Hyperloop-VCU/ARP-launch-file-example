@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'launch_file_example_pkg'
+package_name = 'ARP-launch-file-example'
 
 setup(
     name=package_name,

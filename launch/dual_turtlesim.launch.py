@@ -26,7 +26,7 @@ def generate_launch_description():
 
     # Retrieve the first turtlesim node's config file
     turtlesim_one_config = PathJoinSubstitution([
-        FindPackageShare('launch_file_example_pkg'),
+        FindPackageShare('ARP-launch-file-example'),
         'turtlesim_one_params.yaml'
     ])
 
@@ -40,7 +40,7 @@ def generate_launch_description():
 
     # Retrieve the second turtlesim node's config file
     turtlesim_two_config = PathJoinSubstitution([
-        FindPackageShare('launch_file_example_pkg'),
+        FindPackageShare('ARP-launch-file-example'),
         'turtlesim_two_params.yaml'
     ])
 
